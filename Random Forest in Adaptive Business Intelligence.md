@@ -70,7 +70,11 @@ Good Description of the Concept and Theory (2)(In general)
 
 
 
+<<<<<<< HEAD
 [1] Leo Breiman. 2001. Random Forests. Machine Learning 45, 1 (2001), 5–32. DOI: http://dx.doi.org/10.1023/A:1010933404324
+=======
+[1] Leo Breiman. 2001. Random Forests. Machine Learning 45, 1 (2001), 5–32. DOI: http://dx.doi.org/10.1023/A:1010933404324
+>>>>>>> e9466abc44783d51b28c1ac3796d8993b96cca3f
 
 [2] Hu, C., Chen, Y., Hu, L., & Peng, X. (2018). A novel random forests based class incremental learning method for activity recognition. Pattern Recognition, 78, 277-290.
 
