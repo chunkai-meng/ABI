@@ -19,7 +19,7 @@
 + Good Description of the Concept and Theory (2)(In general)
 > RF are usually referred as an ensemble of Decision Trees (TR). The image below illustrates an informal DT which is a classification tree (Classifier).
 ![image](https://cdn.edureka.co/blog/wp-content/uploads/2015/01/tree1.png)
-> [6]
+> Figure 1. [6]
 >
 > For each node features are select to split the data into classes and decided which class this node belongs to. For example, in the above DT, nodes are firstly divided into two classes by the feature that whether it is a student or not. RF combine a set of small DT which created by embedding bootstrap random sampling and adopting Gini index as a feature selection standard [2].
 
@@ -39,7 +39,6 @@
 > RF also have several disadvantages, such as parallel training may not be applicable in a real scenario.
 >
 
-
 + Limitations of the technique (2)
 --------------------------------------------------------------------------------------
 Good Description of the Concept and Theory (2)(In general)
@@ -49,14 +48,24 @@ Good Description of the Concept and Theory (2)(In general)
 --------------------------------------------------------------------------------------
 ### 3. Application[10]:
 + Example application related to ABI (2)  (specific)
-> This section reviews the RF application in
+> According to Michalewicz et.al. [9], a Adaptive Business Intelligence System should be able to deal with real problems in the time-changing world, and should be resistible to the complexity of vast constrains. Prediction and Optimization are the key to those techniques or models involved in Adaptive Business Intelligence. Random Forest is such a method that popular in this area in recent years.
+> This section reviews a Random Forest application in travel time prediction run by Hou et.al.[10]. The traffic data came from the St. Louis, USA. They are real traffic data in two years, from June 2014 to May 2016. Firstly, the researchers pick up one load as the predicting target, which is F3 shown in red colour in the image below: ![image](Traffic_Network_of_Study.png)  
+> Figure 2.
+> The historical travel time of F3(in red) and the other roads in the same area (in green) were used to train the Random Forest Model. Bagging method was use to build the test-sets. Out-of-bag dataset was used to assess the model. In order to evaluate this Random Forest model, the authors perform the same experiment on a Baseline Predictor model and another two models named: Gradient Boosting Machines (GBM) and AdaBoost. They were then compared with the same criteria: mean absolute percentage error (MAPE).   
+> After this, the Random Forest model was applied to the complex real problem in real-time, predicting the network scale road travel time. This time, they compared Random Forest model with GBM model and another two models: long short term memory (LSTM) and convolutional neural network (CNN). The results showed that Random Forest can outperform its rivals in many aspects.
 
-+ Advantages of using the technique on the application (2)  （Based on the Application）
-+ Disadvantages of using the technique on the application (2) （Based on the Application）
-+ Detailed explanation on how to apply the technique on the specified application (2)
-+ Other available techniques that can be used for the specified application (2)
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
+##### Advantages of using the technique on the application (2)  （Based on the Application）
++ The advantages of using Random Forest method in travel time prediction can be list as below:
+1. Random Forest model can ben highly optimized by parameter selection. For example, after setting the tree depth: size of terminal node as 5, number of variables as 18, number of tree about 100, this model reach the top accuracy. The out-of-bag datasets from bagging were easily adopted for validation. Because of this, the test result indicate that the Random Forest had less mean absolute percentage error (MAPE) than all its opponents: Baseline Predictor, GBM and AdaBoost.
+2. Random Forest is a very efficient algorithm. Table I shows that Random Forest model finished training and gave prediction in a relatively short time, although computational test was run on a not very high power computer.
+[Table]
+3. The importance of variables generated in the Random Forest can be very helpful for human to understand the relationship between constrains and target. People can thus make  better decisions.
+
+##### Disadvantages of using the technique on the application (2) （Based on the Application）
+##### Detailed explanation on how to apply the technique on the specified application (2)
+##### Other available techniques that can be used for the specified application (2)
+
+
 ### 4. Future Development and Conclusion[3]:
 + The future of the technique (1)
 + The future of the technique in relation to ABI (1) (也许合适将来但不适合现在)
@@ -70,11 +79,7 @@ Good Description of the Concept and Theory (2)(In general)
 
 
 
-<<<<<<< HEAD
 [1] Leo Breiman. 2001. Random Forests. Machine Learning 45, 1 (2001), 5–32. DOI: http://dx.doi.org/10.1023/A:1010933404324
-=======
-[1] Leo Breiman. 2001. Random Forests. Machine Learning 45, 1 (2001), 5–32. DOI: http://dx.doi.org/10.1023/A:1010933404324
->>>>>>> e9466abc44783d51b28c1ac3796d8993b96cca3f
 
 [2] Hu, C., Chen, Y., Hu, L., & Peng, X. (2018). A novel random forests based class incremental learning method for activity recognition. Pattern Recognition, 78, 277-290.
 
@@ -95,3 +100,7 @@ When a decision tree is used for classiﬁcation tasks, it is more appropriately
 [7] Introduction to Decision Trees.
 
 [8] Genuer, R., Poggi, J. M., Tuleau-Malot, C., & Villa-Vialaneix, N. (2017). Random forests for big data. Big Data Research, 9, 28-46.
+
+[9] Michalewicz, Z., Chiriac, C., & Michalewicz, M. (2006). Adaptive business intelligence. Retrieved from https://ebookcentral.proquest.com
+
+[10] Hou, Y., Edara, P., & Chang, Y. (2017, October). Road network state estimation using random forest ensemble learning. In Intelligent Transportation Systems (ITSC), 2017 IEEE 20th International Conference on (pp. 1-6). IEEE.
