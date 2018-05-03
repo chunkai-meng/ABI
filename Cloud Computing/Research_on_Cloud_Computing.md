@@ -35,6 +35,9 @@ body paragraph
 
 ## 4.	Discussions of at least 7 Journal/Conference papers:
 > Details of latest development in cloud computing (or in specific area in cloud computing if you choose a specific area in cloud computing eg security (including comparison of workers of other researchers) 30
++ Summary of Papers:
+  - Paper 1: "A asdfasdfasd as df asd as fa dsfsadf  fs" (kefeej, 2002)
+  - Paper 2: "sadfa" (fene, 2011)
 
 
 
