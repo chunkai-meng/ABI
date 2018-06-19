@@ -4,6 +4,8 @@
 
 ## Table of Contents
 
+- [Step1:设计路由](#设计路由)
+- [Updating to New Releases](#updating-to-new-releases)
 
 > Due Date: Monday 14 May (9 am)  
 > Total Marks	100  
@@ -40,10 +42,6 @@
 
 - [ ] Read The Introductions: Apr 2nd
 - [ ] Draft Start
-
-
-- [Step1:设计路由](#设计路由)
-- [Updating to New Releases](#updating-to-new-releases)
 
 ## 设计路由
 
