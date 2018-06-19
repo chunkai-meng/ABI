@@ -2,6 +2,9 @@
 ## ISCG 8046 Cloud Computing
 ### [AS1](https://github.com/chunkai-meng/ABI/blob/master/Cloud%20Computing/Research%20on%20Cloud%20Computing.md)
 
+## Table of Contents
+
+
 > Due Date: Monday 14 May (9 am)  
 > Total Marks	100  
 > Course Weighting	30%  
@@ -37,3 +40,35 @@
 
 - [ ] Read The Introductions: Apr 2nd
 - [ ] Draft Start
+
+
+- [Step1:设计路由](#设计路由)
+- [Updating to New Releases](#updating-to-new-releases)
+
+## 设计路由
+
+1. 路由设计路由设计的过程可以分为两步：
+2. 为每一个页面定义有语义的路由名称（path）。
+3. 组织Route结构层次。
+
+- 定义路由名称我们有三个页面，按照页面功能不难定义出如下的路由名称：
+	- 登录页：/login
+	- 帖子列表页：/posts
+	- 帖子详情页：/posts/:id（id代表帖子的ID）。
+
+但是这些还不够，还需要考虑打开应用时的默认页面，也就是根路径"/"对应的页面。结合业务场景，帖子列表页作为应用的默认页面最为合适，因此，帖子列表页对应两个路由名称："/posts"和"/"。
+
+## Step2: 组织Route结构层次
+
+
+```
+
+```
+
+### 设计状态
+像设计数据库以一样设计state
+
+## WiKi
+一个render()函数里面可以选择返回什么组件或者元素
+
+## Updating to New Releases
